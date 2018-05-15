@@ -1,0 +1,35 @@
+login-input {
+  input[type="text"] {
+    border: none;
+    width: 80%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 10%;
+  }
+
+  button {
+    width: 35%;
+    height: 40px;
+    float: left;
+    border-radius: 5%;
+    color: #fff;
+  }
+
+  .btn {
+    &__group {
+      margin: 5% 0;
+    }
+    &__facebook-login {
+      margin: 0 10%;
+      background-color: #3b5998;
+    }
+    &__login {
+      margin-right: 10%;
+      background-color:  #6d84b4;
+    }
+    &__create-account {
+      width: 80%;
+      margin: 5% 10%;
+    }
+  }
+}
